@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: latha;
+  color: white;
+  background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)), url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.box{
+  width: 60%;
+  float: right;
+  border: 1px solid none;
+}
+
+.box ul li{
+
+  width: 120px;
+  float: left;;
+  margin: 10px auto;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+
+}
+
+.box ul li a{
+  text-decoration: none;
+  color: darkgray;
+}
+
+.box ul li a:hover{
+  color:white;
+}
+
+.wd{
+  width: 300px;
+  height: 459px;
+  background-color: black;
+  opacity: 0.9;
+  padding: 55px;
+  margin-left: 2rem;
+}
+
+.wd h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wd h4{
+  text-align: justify;
+  color: darkgray;
+  font-weight: normal;
+}
+
+.wd h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin:30px auto;
+}
+
+.opt ul li{
+  list-style: none;
+  display: inline-block;
+  border: 2px solid white;
+  float: left;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.opt ul li:hover{
+  border-radius: 24px;
+  transition: 0.5s;
+}
+
+.opt ul li a{
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
